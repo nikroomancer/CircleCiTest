@@ -6,7 +6,7 @@ jobs:
     docker:
       - image: circleci/python:2.7-node
     environment:
-      AWS_REGION: us-east-1
+      AWS_REGION: stockholm
     steps:
       - checkout
       - run: npm install
